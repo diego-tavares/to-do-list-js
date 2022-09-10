@@ -1,8 +1,46 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-image: url(assets/bg.png);
+    display: flex;
+    justify-content: center;
+    background-color: #fefefe;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 2vw;
+
+}
+
+header button {
+    position: absolute;
+    margin-top: -30px;
+    right: 18%;
+}
+
+header i {
+    font-size: 20px;
+}
+
+.to-do {
+    margin-top: 40px;
+    width: 60%;
+}
+
+.listInsert {
+    border: none;
+    background-color: black;
+    color: #fefefe;
 }

@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>To-do List</title>
 </head>
 <body>
-    <header>
-Task List
-    </header>
-    
-    <main>
+    <div class="to-do">
+        <header>
+            <p>To-Do List</p>
+            <button><i class='bx bxs-trash-alt'></i></button>   
+            <hr>
+            <br>
+        </header>
+        <main class="insert">
+            <input class="listInsert" type="text">
+            <button><i class='bx bxs-plus-circle'></i></button>
+        </main>
+        <ul></ul>
         
-    </main>
-    
+    </div>   
 </body>
 </html>
