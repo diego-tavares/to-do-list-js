@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #fefefe;
+    
 }
 
 p {
@@ -23,6 +24,10 @@ ul {
     margin-bottom: 2vw;
 
 }
+hr {
+    width: 80%;
+    margin: auto;
+}
 
 header button {
     position: absolute;
@@ -31,16 +36,43 @@ header button {
 }
 
 header i {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .to-do {
     margin-top: 40px;
-    width: 60%;
+    width: 100%;
+}
+
+.insert {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .listInsert {
     border: none;
-    background-color: black;
-    color: #fefefe;
+    background-color: lightgrey;    
+    border-radius: 10px;
+    display: flex;
+    text-align: center;    
+    box-shadow: 6px 5px 10px 0 darkgray;
+    font-size: xx-large
+}
+
+button {
+    width: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.bxs-plus-circle {
+    font-size: 30px;
 }
