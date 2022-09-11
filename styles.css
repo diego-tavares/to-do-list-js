@@ -87,3 +87,50 @@ button {
     
     
 }
+
+.divLi {
+    margin-top: 20px;
+    padding: 10px;
+    background: red;
+    border-radius: 10px;
+    box-shadow: 6px 5px 10px 0 blue;
+    display: flex;
+    align-items: center;
+}
+
+.divLi span {
+    width: 80%;
+    outline: none;
+    accent-color: currentcolor;
+}
+
+.div Li {
+    font-size: 22px;
+    color: purple;
+}
+
+li {
+    list-style-type: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+@media (max-width: 775px) {
+    input {
+        width: 70%;
+    }
+
+    .listInsert button {
+        width: 30%;
+    }
+
+    i {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: x-large;
+    }
+}
