@@ -65,8 +65,12 @@ header i {
     font-size: xx-large
 }
 
+.listInsert:focus {
+    outline: none;
+}
+
 button {
-    width: 10%;
+    width: 10px;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -74,5 +78,12 @@ button {
 }
 
 .bxs-plus-circle {
-    font-size: 30px;
+    font-size: 50px;
+    margin-left: 10px;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fefefe;
+    
+    
 }
