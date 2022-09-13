@@ -1,5 +1,5 @@
 const texto = document.querySelector('input')
-const btnInsert = document.querySelector('.divInsert button')
+const btnInsert = document.querySelector('.insert button')
 const btnDeleteAll = document.querySelector('.header button')
 const ul = document.querySelector('ul')
 
