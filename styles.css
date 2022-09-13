@@ -29,13 +29,13 @@ hr {
     margin: auto;
 }
 
-header button {
+.header button {
     position: absolute;
     margin-top: -30px;
     right: 18%;
 }
 
-header i {
+.header i {
     font-size: 22px;
 }
 
@@ -104,7 +104,7 @@ button {
     accent-color: currentcolor;
 }
 
-.div Li {
+.divLi i {
     font-size: 22px;
     color: purple;
 }
