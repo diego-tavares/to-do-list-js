@@ -14,20 +14,29 @@ texto.addEventListener('keypress', e => {
   if (e.key == 'Enter' && texto.value != '') {
     setItemDB()
   }
+  else (texto.value = '') 
+    alert('Preencha os dados')
+    return
 })
 
 btnInsert.onclick = () => {
   if (texto.value != '') {
     setItemDB()
   }
+    else (texto.value = '') 
+    alert('Preencha os dados')
+    return
+  
 }
 
 function setItemDB() {
   if (itensDB.length >= 50) {
     alert('Limite máximo de 50 itens atingido!')
     return
+    
   }
 
+  
   itensDB.push({ 'item': texto.value, 'status': '' })
   updateDB()
 }
